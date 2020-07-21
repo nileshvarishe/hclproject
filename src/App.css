@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ul-style {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+}
+
+.li-style {
+  width: auto;
+  list-style-type: none;
+  padding: 5px;
+  float: right;
+}
+
+.Link-style {
+  color: blue;
+  text-decoration: none;
+}
+
+.box-book-list {
+  display: inline-block;
+  position: relative;
+  margin: 5px;
+  float: left;
+  width: calc(20% - 10px);
+  height: 300px;
+  background-color: lightyellow;
+  border: 1px solid lightgray;
+}
+
+.image-class {
+  width: 40%;
+  height: 0%;
+}
+
+.book-data-class {
+  padding: 10px;
+}
+
+.image-div-class {
+  display: flex;
+}
+
+.button {
+  background-color: #a9a9a9; /* Green */
+  border: none;
   color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.box-cart-book-list {
+  display: inline-block;
+  position: relative;
+  margin: 5px;
+  float: left;
+  width: calc(40% - 10px);
+  height: 300px;
+  background-color: lightyellow;
+  border: 1px solid lightgray;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box-cart-payment-info {
+  display: inline-block;
+  position: relative;
+  margin: 5px;
+  float: left;
+  width: calc(80% - 10px);
+  height: 300px;
+  background-color: lightyellow;
+  border: 1px solid lightgray;
 }
