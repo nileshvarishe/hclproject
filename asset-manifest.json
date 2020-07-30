@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/hclproject/static/css/main.ca3a0e01.chunk.css",
-    "main.js": "/hclproject/static/js/main.62d6e0bf.chunk.js",
-    "main.js.map": "/hclproject/static/js/main.62d6e0bf.chunk.js.map",
+    "main.js": "/hclproject/static/js/main.68ad1572.chunk.js",
+    "main.js.map": "/hclproject/static/js/main.68ad1572.chunk.js.map",
     "runtime-main.js": "/hclproject/static/js/runtime-main.eb7def33.js",
     "runtime-main.js.map": "/hclproject/static/js/runtime-main.eb7def33.js.map",
-    "static/js/2.1368f937.chunk.js": "/hclproject/static/js/2.1368f937.chunk.js",
-    "static/js/2.1368f937.chunk.js.map": "/hclproject/static/js/2.1368f937.chunk.js.map",
+    "static/js/2.8b3c34bb.chunk.js": "/hclproject/static/js/2.8b3c34bb.chunk.js",
+    "static/js/2.8b3c34bb.chunk.js.map": "/hclproject/static/js/2.8b3c34bb.chunk.js.map",
     "index.html": "/hclproject/index.html",
-    "precache-manifest.fa2974585ffa7a0c88e6ce0ba37272c0.js": "/hclproject/precache-manifest.fa2974585ffa7a0c88e6ce0ba37272c0.js",
+    "precache-manifest.fae803bf8a864bc5487fe59dcb543370.js": "/hclproject/precache-manifest.fae803bf8a864bc5487fe59dcb543370.js",
     "service-worker.js": "/hclproject/service-worker.js",
     "static/css/main.ca3a0e01.chunk.css.map": "/hclproject/static/css/main.ca3a0e01.chunk.css.map",
-    "static/js/2.1368f937.chunk.js.LICENSE.txt": "/hclproject/static/js/2.1368f937.chunk.js.LICENSE.txt"
+    "static/js/2.8b3c34bb.chunk.js.LICENSE.txt": "/hclproject/static/js/2.8b3c34bb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.eb7def33.js",
-    "static/js/2.1368f937.chunk.js",
+    "static/js/2.8b3c34bb.chunk.js",
     "static/css/main.ca3a0e01.chunk.css",
-    "static/js/main.62d6e0bf.chunk.js"
+    "static/js/main.68ad1572.chunk.js"
   ]
 }
