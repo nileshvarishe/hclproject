@@ -17,7 +17,7 @@ function MyOrderList({ bookdata, index, removeBook}) {
             <div>
               <h3>Price : {bookdata.price}</h3>
               <button
-                onClick={() => removeBook(bookdata.id)}
+                onClick={() => removeBook(bookdata.orderId)}
                  className="button"
               >
                 Remove

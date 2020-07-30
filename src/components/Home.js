@@ -1,14 +1,17 @@
 import React, { useState, useEffect } from "react";
 import Booklist from "./BookList";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { fetchBooks } from "../services/bookAPIService";
 
 export function Home() {
   const orderDispatch = useDispatch();
   const [bookList, setBookList] = useState([]);
-
+  const myOrderId = useSelector((state) => state.orderId);
+  
   function orderHandle(e, bookObj) {
-    orderDispatch({ type: "ADD", bookObj });
+    const orderId = myOrderId+1;
+    bookObj.orderId = orderId;
+    orderDispatch({ type: "ADD", bookObj, orderId});
   }
 
   useEffect(() => {

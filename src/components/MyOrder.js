@@ -6,8 +6,8 @@ export function MyOrder() {
   const myOrder = useSelector((state) => state.order);
   const orderDispatch = useDispatch();
 
-  function removeBookHandle(id) {
-    orderDispatch({ type: "REMOVE", id, myOrder});
+  function removeBookHandle(orderId) {
+     orderDispatch({ type: "REMOVE", orderId, myOrder});
   }
 
   return (
@@ -23,7 +23,7 @@ export function MyOrder() {
   );
 }
 
-export function removeFromCart(id,myOrder) {
-  const filterData = myOrder.filter((item, index) => id !== item.id);
+export function removeFromCart(orderId,myOrder) {
+  const filterData = myOrder.filter((item, index) => orderId !== item.orderId);
   return filterData;
 }
